@@ -1,0 +1,120 @@
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+H1{font-size: 70px;}
+H2{font-size: 30px;text-align: center;color: darkblue;}
+H3{font-size: 30px;}
+H4{font-size: 25px;}
+p{font-size: 20px;}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px
+}
+
+
+.nav-main{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+.nav-main img{}
+nav{}
+nav ul{
+    margin: auto;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 0px 0px 0px 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3b0601;
+    font-weight:  bold;
+    font-size: 18px;
+}
+
+/* ======= banner start ======== */
+.banner{
+    margin: 30px 0px;
+}
+.banner h1{
+    text-align: center;
+    font-size: 70px;
+    margin: 15px;
+}
+.banner h1 span{
+    color: rgb(255 3 3);
+}
+.banner p{
+    text-align: center;
+    color: #3a0300;
+}
+.banner img{
+    width: 100%;
+    margin: auto;
+}
+
+/* ======under dashboard===== */
+.complete{
+    display: flex;
+    margin: 50px 0px 0px 0px;
+}
+.complete-child{
+    width: 50%;
+    padding:20px;
+    text-align: right;
+}
+.complete-child h2{
+    margin: 0px;
+    color:#3a0300;
+    
+}
+.child1{
+    color: red !important;
+}
+.child2{
+    text-align: left;
+}
+.complete-child p{}
+
+
+/*=====service page=====*/
+.servicepage{display: flex}
+.service1{
+    width:30%;
+    padding:20px;
+    text-align: justify;
+    color: darkgreen;
+    }
+    .service1 img{
+        width: 500px;
+        height: 500px;}
+    
+.service2{
+    width:30%;
+    padding:20px;
+    text-align: justify;
+    color: darkgreen;
+    }
+    .service2 img{
+        width: 500px;
+        height: 500px;}
+.service3{
+    width:30%;
+    padding:20px;
+    text-align: justify}
+    .service3 img{
+        width: 500px;
+        height: 500px;}
+        
